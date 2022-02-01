@@ -30,6 +30,10 @@ jobs:
         run: npm install
         working-directory: ${{ env.working-directory }}
       - name: build
-        run: npm run deploy-gh-prefix-paths
+        run: npm run build-prefix-paths
         working-directory: ${{ env.working-directory }}
-      
+      - uses: peaceiris/actions-gh-pages@v2
+        env:
+          GITHUB_TOKEN: ${{ secrets.TOKEN }}
+          PUBLISH_BRANCH: gh-pages
+          PUBLISH_DIR: ./public
