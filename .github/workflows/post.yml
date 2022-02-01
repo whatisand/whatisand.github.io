@@ -34,6 +34,7 @@ jobs:
         working-directory: ${{ env.working-directory }}
       - uses: peaceiris/actions-gh-pages@v2
         env:
+          GITHUB_TOKEN: ${{ secrets.TOKEN }}
           PUBLISH_BRANCH: gh-pages
           PUBLISH_DIR: ./public
           working-directory: ${{ env.working-directory }}
