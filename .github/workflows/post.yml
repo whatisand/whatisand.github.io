@@ -13,16 +13,17 @@ jobs:
       working-directory: ./whatisand-blog
 
     steps:
+      - name: Checkout source code
       - uses: actions/checkout@v2
-      - name: Use Node.js 10.x
+      - name: Use Node.js 12.x
         uses: actions/setup-node@v1
         with:
-          node-version: 10.x
+          node-version: 12.x
       - name: Cache node_modules
         uses: actions/cache@v1
         with:
           path: /whatisand-blog/node_modules
-          key: ${{runner.OS}}-build-${{hashFiles('./whatisand-blog/package-lock.json')}}
+          key: ${{runner.OS}}-build-${{hashFiles('**/whatisand-blog/package-lock.json')}}
           restore-keys: |
             ${{ runner.OS }}-build-${{ runner.OS }}-
       - name: Install node packages
@@ -32,10 +33,3 @@ jobs:
         run: npm run deploy-gh-prefix-paths
         working-directory: ${{ env.working-directory }}
       
-      - name: deploy
-        uses: enriikke/gatsby-gh-pages-action@v2
-        with:
-          access-token: ${{ secrets.TOKEN }}
-          deploy-branch: gh-pages
-          skip-publish: false
-          working-directory: ${{ env.working-directory }}
