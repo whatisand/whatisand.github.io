@@ -1,22 +1,44 @@
-name: Gatsby Publish
+name: POST CD
+
 on:
-  pull_request:
-    branches:
-      - master
-    paths-ignore:
-      - '**/README.md'
   push:
     branches:
       - master
-    paths-ignore:
-      - '**/README.md'
+
 jobs:
-  deploy:
+  build:
+    name: build
     runs-on: ubuntu-latest
+    env:
+      working-directory: ./whatisand-blog
+
     steps:
-      - uses: actions/checkout@v1
-      - uses: enriikke/gatsby-gh-pages-action@v2
+      - uses: actions/checkout@v2
+      - name: Use Node.js 10.x
+        uses: actions/setup-node@v1
         with:
-          access-token: ${{ secrets.TOKEN }}
-          deploy-branch: gh-pages
-          skip-publish: false
+          node-version: 10.x
+      - name: Cache node_modules
+        uses: actions/cache@v1
+        with:
+          path: /whatisand-blog/node_modules
+          key: ${{runner.OS}}-build-${{hashFiles('./whatisand-blog/package-lock.json')}}
+          restore-keys: |
+            ${{ runner.OS }}-build-${{ runner.OS }}-
+      - name: Install node packages
+        run: npm install
+        working-directory: ${{ env.working-directory }}
+      - name: build
+        run: npm run deploy-gh-prefix-paths
+        working-directory: ${{ env.working-directory }}
+    
+    deploy:
+      runs-on: ubuntu-latest
+      steps:
+        - uses: actions/checkout@v1
+        - uses: enriikke/gatsby-gh-pages-action@v2
+          with:
+            access-token: ${{ secrets.TOKEN }}
+            deploy-branch: gh-pages
+            skip-publish: false
+            working-directory: ${{ env.working-directory }}
