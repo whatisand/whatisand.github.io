@@ -31,14 +31,12 @@ jobs:
       - name: build
         run: npm run deploy-gh-prefix-paths
         working-directory: ${{ env.working-directory }}
-    
-    deploy:
-      runs-on: ubuntu-latest
-      steps:
-        - uses: actions/checkout@v1
-        - uses: enriikke/gatsby-gh-pages-action@v2
-          with:
-            access-token: ${{ secrets.TOKEN }}
-            deploy-branch: gh-pages
-            skip-publish: false
-            working-directory: ${{ env.working-directory }}
+      
+      - name: deploy
+        uses: actions/checkout@v1
+        uses: enriikke/gatsby-gh-pages-action@v2
+        with:
+          access-token: ${{ secrets.TOKEN }}
+          deploy-branch: gh-pages
+          skip-publish: false
+          working-directory: ${{ env.working-directory }}
