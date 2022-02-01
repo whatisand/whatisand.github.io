@@ -9,7 +9,8 @@ jobs:
   build:
     name: build
     runs-on: ubuntu-latest
-    working-directory: ./whatisand-blog
+    env:
+      working-directory: ./whatisand-blog
 
     steps:
       - uses: actions/checkout@v2
@@ -30,4 +31,3 @@ jobs:
       - name: build
         run: npm run deploy-gh-prefix-paths
         working-directory: ${{ env.working-directory }}
-
