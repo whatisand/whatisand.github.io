@@ -36,5 +36,4 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.TOKEN }}
           PUBLISH_BRANCH: gh-pages
-          PUBLISH_DIR: ./public
-          working-directory: ${{ env.working-directory }}
+          PUBLISH_DIR: ./whatisand-blog/public
