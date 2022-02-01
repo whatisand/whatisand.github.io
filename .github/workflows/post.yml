@@ -22,10 +22,11 @@ jobs:
       - name: Cache node_modules
         uses: actions/cache@v1
         with:
-          path: /whatisand-blog/node_modules
+          path: ./node_modules
           key: ${{runner.OS}}-build-${{hashFiles('**/whatisand-blog/package-lock.json')}}
           restore-keys: |
             ${{ runner.OS }}-build-${{ runner.OS }}-
+        working-directory: ${{ env.working-directory }}
       - name: Install node packages
         run: npm install
         working-directory: ${{ env.working-directory }}
@@ -34,7 +35,6 @@ jobs:
         working-directory: ${{ env.working-directory }}
       - uses: peaceiris/actions-gh-pages@v2
         env:
-          GITHUB_TOKEN: ${{ secrets.TOKEN }}
           PUBLISH_BRANCH: gh-pages
           PUBLISH_DIR: ./public
           working-directory: ${{ env.working-directory }}
