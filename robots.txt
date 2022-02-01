@@ -1,4 +1,0 @@
-User-agent: *
-Allow: /
-Sitemap: https://whatisand.github.io/blog/sitemap/sitemap-index.xml
-Host: https://whatisand.github.io
