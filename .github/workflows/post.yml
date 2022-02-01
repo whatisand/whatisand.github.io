@@ -33,7 +33,6 @@ jobs:
         working-directory: ${{ env.working-directory }}
       
       - name: deploy
-        uses: actions/checkout@v1
         uses: enriikke/gatsby-gh-pages-action@v2
         with:
           access-token: ${{ secrets.TOKEN }}
