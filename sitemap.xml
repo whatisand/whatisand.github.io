@@ -4,8 +4,10 @@
 <url> <loc>https://whatisand.github.io/blog/blog/hello-world/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://whatisand.github.io/blog/blog/미래-핵심-역량/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://whatisand.github.io/blog/blog/성장의-단계/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://whatisand.github.io/blog/blog/mypy-clean-architecture-lsp/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://whatisand.github.io/blog/blog/series/무엇이-좋은-조직인가?</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://whatisand.github.io/blog/blog/series/짧은글</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://whatisand.github.io/blog/blog/series/오늘의-개발일기</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://whatisand.github.io/blog/blog/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://whatisand.github.io/blog/blog/search/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://whatisand.github.io/blog/blog/series/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
