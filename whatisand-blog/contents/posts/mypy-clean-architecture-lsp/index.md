@@ -83,12 +83,7 @@ class GeneralizedReturn(A):
 ```python
 ...
 def create(self, db: Session, *, obj_in: CreateSchemaType) -> ModelType:
-        obj_in_data = jsonable_encoder(obj_in)
-        db_obj = self.model(**obj_in_data)  # type: ignore
-        db.add(db_obj)
-        db.commit()
-        db.refresh(db_obj)
-        return db_obj
+        ...
 ...
 ```
 
@@ -98,24 +93,7 @@ def create(self, db: Session, *, obj_in: CreateSchemaType) -> ModelType:
  def create(
         self, db: Session, *, obj_in: ScheduleBlockCreate, user_id: str
     ) -> ScheduleBlock:
-        obj_in_data = jsonable_encoder(obj_in)
-        if obj_in.start_time not in range(0, 23) or obj_in.end_time not in range(0, 23):
-            raise HTTPException(400, detail="Time data must be in 0~23")
-        if obj_in.start_minute not in range(0, 59) or obj_in.end_minute not in range(
-            0, 59
-        ):
-            raise HTTPException(400, detail="Minute data must be in 0~59")
-
-        if obj_in.day not in range(0, 6):
-            raise HTTPException(
-                400, detail="Day data must be in 0~6, 0: Sunday, 6: Saturday"
-            )
-
-        db_obj = ScheduleBlock(id=create_uuid(), user_id=user_id, **obj_in_data)
-        db.add(db_obj)
-        db.commit()
-        db.refresh(db_obj)
-        return db_obj
+        ...
 
 ...
 ````
