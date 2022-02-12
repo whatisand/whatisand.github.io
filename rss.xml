@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[RSS Feed of Kim Dongwoo]]></title><description><![CDATA[세상과 다른 방법으로 살고싶습니다.]]></description><link>https://whatisand.github.io/blog</link><generator>GatsbyJS</generator><lastBuildDate>Fri, 11 Feb 2022 15:33:42 GMT</lastBuildDate><item><title><![CDATA[Python incompatible with supertype 에러와 LSP]]></title><description><![CDATA[들어가며 Fast API를 통해 개발중에 상속과 오버라이드를 해야 할 일이 있었습니다.
-린팅을 위해 mypy…]]></description><link>https://whatisand.github.io/blog/mypy-clean-architecture-lsp/</link><guid isPermaLink="false">https://whatisand.github.io/blog/mypy-clean-architecture-lsp/</guid><pubDate>Wed, 09 Feb 2022 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;들어가며&lt;/h2&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[RSS Feed of Kim Dongwoo]]></title><description><![CDATA[세상과 다른 방법으로 살고싶습니다.]]></description><link>https://whatisand.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Sat, 12 Feb 2022 17:09:31 GMT</lastBuildDate><item><title><![CDATA[Python incompatible with supertype 에러와 LSP]]></title><description><![CDATA[들어가며 Fast API를 통해 개발중에 상속과 오버라이드를 해야 할 일이 있었습니다.
+린팅을 위해 mypy…]]></description><link>https://whatisand.github.io/mypy-clean-architecture-lsp/</link><guid isPermaLink="false">https://whatisand.github.io/mypy-clean-architecture-lsp/</guid><pubDate>Wed, 09 Feb 2022 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;들어가며&lt;/h2&gt;
 &lt;p&gt;Fast API를 통해 개발중에 상속과 오버라이드를 해야 할 일이 있었습니다.
 린팅을 위해 mypy로 검사해보니 이런 오류를 내어 주었습니다.&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;Signature of &quot;create&quot; incompatible with supertype&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
@@ -86,7 +86,7 @@
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;https://mypy.readthedocs.io/en/stable/common_issues.html#incompatible-overrides&quot;&gt;Common issues and solutions — Mypy 0.931 documentation&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://stackoverflow.com/questions/56860/what-is-an-example-of-the-liskov-substitution-principle&quot;&gt;oop - What is an example of the Liskov Substitution Principle? - Stack Overflow&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[Github Actions를 이용해 Docker CD 도전기]]></title><description><![CDATA[이 글은 지속적으로 작성되며 업데이트 되는 글입니다. 지금은 별다른 내용이 없을 수 있는 점 양해 부탁드립니다. 배경 Fast API를 프로젝트에 무작정 써보기 위해 Fast API…]]></description><link>https://whatisand.github.io/blog/docker-ec2-CD-github-actions/</link><guid isPermaLink="false">https://whatisand.github.io/blog/docker-ec2-CD-github-actions/</guid><pubDate>Fri, 04 Feb 2022 00:00:00 GMT</pubDate><content:encoded>&lt;blockquote&gt;
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[Github Actions를 이용해 Docker CD 도전기]]></title><description><![CDATA[이 글은 지속적으로 작성되며 업데이트 되는 글입니다. 지금은 별다른 내용이 없을 수 있는 점 양해 부탁드립니다. 배경 Fast API를 프로젝트에 무작정 써보기 위해 Fast API…]]></description><link>https://whatisand.github.io/docker-ec2-CD-github-actions/</link><guid isPermaLink="false">https://whatisand.github.io/docker-ec2-CD-github-actions/</guid><pubDate>Fri, 04 Feb 2022 00:00:00 GMT</pubDate><content:encoded>&lt;blockquote&gt;
 &lt;p&gt;이 글은 지속적으로 작성되며 업데이트 되는 글입니다. 지금은 별다른 내용이 없을 수 있는 점 양해 부탁드립니다.&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;h2&gt;배경&lt;/h2&gt;
@@ -122,7 +122,7 @@
 &lt;li&gt;&lt;a href=&quot;https://velog.io/@zlemzlem5656/Vue-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-Github-Action-Docker-%EC%9D%B4%EC%9A%A9%ED%95%B4%EC%84%9C-EC2%EC%97%90-%EB%B0%B0%ED%8F%AC%ED%95%98%EA%B8%B0&quot;&gt;Vue 프로젝트 Github Action &amp;#x26; Docker 이용해서 EC2에 배포하기 -- 1&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://velog.io/@soosungp33/Github-Actions%EC%9C%BC%EB%A1%9C-AWS-EC2%EC%97%90-CICD-%EA%B5%AC%EC%B6%95%ED%95%98%EA%B8%B0&quot;&gt;Github Actions으로 AWS EC2에 CI/CD 구축하기&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://docs.github.com/en/actions/hosting-your-own-runners/about-self-hosted-runners&quot;&gt;Github Actions Self-hosted 공식문서&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[성장의 단계]]></title><description><![CDATA[들어가며 사람은 항상 성장하려고 한다.…]]></description><link>https://whatisand.github.io/blog/성장의-단계/</link><guid isPermaLink="false">https://whatisand.github.io/blog/성장의-단계/</guid><pubDate>Wed, 02 Feb 2022 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;들어가며&lt;/h2&gt;
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[성장의 단계]]></title><description><![CDATA[들어가며 사람은 항상 성장하려고 한다.…]]></description><link>https://whatisand.github.io/성장의-단계/</link><guid isPermaLink="false">https://whatisand.github.io/성장의-단계/</guid><pubDate>Wed, 02 Feb 2022 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;들어가며&lt;/h2&gt;
 &lt;p&gt;사람은 항상 성장하려고 한다. 1년 전에는 잘 못했던 것을 지금 해내고 있는 자신을 볼 때가 있다.&lt;/p&gt;
 &lt;p&gt;지식은 단순히 수학공식이나 영어단어 같은 것을 말하지 않는다. 지식은 협상하기, 눈치보기, 회의 이끌기 같은 행동 양식과, 더 나아가서 본인 감정상태 다스리기, 진심으로 위로하기 같은 엄청나게 추상적인 암묵지도 포함한다.&lt;/p&gt;
 &lt;p&gt;나는 어떻게 성장했는가? 사람은 어떻게 성장하는가? 성장의 단계에 대한 고찰을 공유해본다.&lt;/p&gt;
@@ -185,7 +185,7 @@
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[자유로운 피드백을 위한 원칙]]></title><description><![CDATA[…]]></description><link>https://whatisand.github.io/blog/feedback-4a/</link><guid isPermaLink="false">https://whatisand.github.io/blog/feedback-4a/</guid><pubDate>Tue, 01 Feb 2022 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;피드백이 자유로운 문화를 만들기 위해&lt;/h2&gt;
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[자유로운 피드백을 위한 원칙]]></title><description><![CDATA[…]]></description><link>https://whatisand.github.io/feedback-4a/</link><guid isPermaLink="false">https://whatisand.github.io/feedback-4a/</guid><pubDate>Tue, 01 Feb 2022 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;피드백이 자유로운 문화를 만들기 위해&lt;/h2&gt;
 &lt;p&gt;실리콘밸리 조직문화가 유명해지며 솔직한 피드백을 통한 성장이 주요한 조직 성장 동력으로 주목받고 있다. 눈치보며 할 말 못하는 문화에 지겨운 요즘 사람들에게 아주 새롭고 신선한 시도록 보여지고 있다.&lt;/p&gt;
 &lt;p&gt;피드백이 있을때 숨김 없이 말할 수 있는 분위기를 만드는 것은 업무에 상당히 도움이 된다. 눈치보지 않고 드러난 일에만 집중할 수 있기 때문이다.&lt;/p&gt;
 &lt;p&gt;하지만 고민없는 솔직한 피드백 문화 떄문에 가끔 어색한 광경을 목격하게 된다.
@@ -219,9 +219,9 @@
 &lt;li&gt;피드백을 준 사람으로서는 “왜 내가 피드백 했는데 안들어줘?”라고 생각해서는 안 된다. 피드백의 수용은 받은 사람이 결정한다. 피드백을 거절한 것은 나를 거절한 것이 아니다. 가장 상황을 잘 아는 사람이 속도에 맞추어 적용할 것이다.&lt;/li&gt;
 &lt;li&gt;반대로 피드백을 받아들인 사람으로서는 “쟤는 왜 내가 결정할 사항에 이래라 저래라야?” 하는 마음이 들면 안된다. 피드백을 주는 사람이 더 거리낌 없이 줄 수 있도록 해야 한다.&lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;(규칙없음 중에서)&lt;/p&gt;</content:encoded></item><item><title><![CDATA[안녕하세요.]]></title><description><![CDATA[안녕하세요 블로그를 새롭게 세팅해보았습니다. 기술적인 내용이나 개인의 짧은 메모라도 가볍게 공유할 수 있는 블로그로 활용할 예정입니다.]]></description><link>https://whatisand.github.io/blog/hello-world/</link><guid isPermaLink="false">https://whatisand.github.io/blog/hello-world/</guid><pubDate>Tue, 01 Feb 2022 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;안녕하세요&lt;/h2&gt;
+&lt;p&gt;(규칙없음 중에서)&lt;/p&gt;</content:encoded></item><item><title><![CDATA[안녕하세요.]]></title><description><![CDATA[안녕하세요 블로그를 새롭게 세팅해보았습니다. 기술적인 내용이나 개인의 짧은 메모라도 가볍게 공유할 수 있는 블로그로 활용할 예정입니다.]]></description><link>https://whatisand.github.io/hello-world/</link><guid isPermaLink="false">https://whatisand.github.io/hello-world/</guid><pubDate>Tue, 01 Feb 2022 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;안녕하세요&lt;/h2&gt;
 &lt;p&gt;블로그를 새롭게 세팅해보았습니다.&lt;/p&gt;
-&lt;p&gt;기술적인 내용이나 개인의 짧은 메모라도 가볍게 공유할 수 있는 블로그로 활용할 예정입니다.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[AWS EC2에 배포된 서버 HTTPS 통신 적용하기]]></title><description><![CDATA[이 글은 지속적으로 작성되며 업데이트 되는 글입니다. 지금은 별다른 내용이 없을 수 있는 점 양해 부탁드립니다. 배경 사이드 프로젝트로 개발중인 API…]]></description><link>https://whatisand.github.io/blog/https-with-aws-elb/</link><guid isPermaLink="false">https://whatisand.github.io/blog/https-with-aws-elb/</guid><pubDate>Tue, 01 Feb 2022 00:00:00 GMT</pubDate><content:encoded>&lt;blockquote&gt;
+&lt;p&gt;기술적인 내용이나 개인의 짧은 메모라도 가볍게 공유할 수 있는 블로그로 활용할 예정입니다.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[AWS EC2에 배포된 서버 HTTPS 통신 적용하기]]></title><description><![CDATA[이 글은 지속적으로 작성되며 업데이트 되는 글입니다. 지금은 별다른 내용이 없을 수 있는 점 양해 부탁드립니다. 배경 사이드 프로젝트로 개발중인 API…]]></description><link>https://whatisand.github.io/https-with-aws-elb/</link><guid isPermaLink="false">https://whatisand.github.io/https-with-aws-elb/</guid><pubDate>Tue, 01 Feb 2022 00:00:00 GMT</pubDate><content:encoded>&lt;blockquote&gt;
 &lt;p&gt;이 글은 지속적으로 작성되며 업데이트 되는 글입니다. 지금은 별다른 내용이 없을 수 있는 점 양해 부탁드립니다.&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;h2&gt;배경&lt;/h2&gt;
@@ -240,7 +240,7 @@
 &lt;p&gt;여기서 영역 설정을 잘못 해서 한참 고생함.&lt;/p&gt;
 &lt;h3&gt;Application Loadbalncer 세팅&lt;/h3&gt;
 &lt;p&gt;여기서 인증서 적용함&lt;/p&gt;
-&lt;h2&gt;배운 점&lt;/h2&gt;</content:encoded></item><item><title><![CDATA[미래 핵심 역량]]></title><description><![CDATA[…]]></description><link>https://whatisand.github.io/blog/미래-핵심-역량/</link><guid isPermaLink="false">https://whatisand.github.io/blog/미래-핵심-역량/</guid><pubDate>Tue, 01 Feb 2022 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;미래에는 어떤 역량이 중요해질까?&lt;/h2&gt;
+&lt;h2&gt;배운 점&lt;/h2&gt;</content:encoded></item><item><title><![CDATA[미래 핵심 역량]]></title><description><![CDATA[…]]></description><link>https://whatisand.github.io/미래-핵심-역량/</link><guid isPermaLink="false">https://whatisand.github.io/미래-핵심-역량/</guid><pubDate>Tue, 01 Feb 2022 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;미래에는 어떤 역량이 중요해질까?&lt;/h2&gt;
 &lt;p&gt;&quot;교육의 목적이 무엇인가?&quot; 라는 질문에 한참 빠져 있었다. 우리가 열심히 공부하는 긍국적인 이유는 무엇일지 알아야 몰입할 수 있다.
 지금 우리가 배우는 지식과 지금 우리가 익히는 역량은 진짜 필요한 역량일까?&lt;/p&gt;
 &lt;p&gt;스타트업 활동을 하며 생각난 미래에 필요한 역량을 메모해두었는데 이 자리에서 공유해본다.&lt;/p&gt;
