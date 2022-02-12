@@ -2,7 +2,7 @@ module.exports = {
   title: "Kim Dongwoo",
   description: "세상과 다른 방법으로 살고싶습니다.",
   author: "kimdongwoo",
-  siteUrl: "https://whatisand.github.io/blog/",
+  siteUrl: "https://whatisand.github.io",
   links: {
     github: "https://github.com/whatisand",
     linkedIn: "https://www.linkedin.com/in/andkimdongwoo",
@@ -11,7 +11,7 @@ module.exports = {
     email: "mailto:andandend2847@gmail.com",
   },
   utterances: {
-    repo: "whatisand/blog",
+    repo: "whatisand/whatisand.github.io",
     type: "pathname",
   },
 }
