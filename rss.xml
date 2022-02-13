@@ -1,4 +1,50 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[RSS Feed of Kim Dongwoo]]></title><description><![CDATA[세상과 다른 방법으로 살고싶습니다.]]></description><link>https://whatisand.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Sat, 12 Feb 2022 17:21:38 GMT</lastBuildDate><item><title><![CDATA[Python incompatible with supertype 에러와 LSP]]></title><description><![CDATA[들어가며 Fast API를 통해 개발중에 상속과 오버라이드를 해야 할 일이 있었습니다.
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[RSS Feed of Kim Dongwoo]]></title><description><![CDATA[세상과 다른 방법으로 살고싶습니다.]]></description><link>https://whatisand.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Sun, 13 Feb 2022 15:19:04 GMT</lastBuildDate><item><title><![CDATA[제품을 개발하는 조직에서 항상 가져가야 하는 질문]]></title><description><![CDATA[…]]></description><link>https://whatisand.github.io/프로덕트-필수-질문/</link><guid isPermaLink="false">https://whatisand.github.io/프로덕트-필수-질문/</guid><pubDate>Fri, 11 Feb 2022 00:00:00 GMT</pubDate><content:encoded>&lt;blockquote&gt;
+&lt;p&gt;내가 만들고 싶은 것이 아니라
+사람들이 원하는 것을 만들어라&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;창업을 하거나 제품을 만들 때 유의할 점으로 많이 듣는 말입니다.
+우리가 만들고 싶은 것이 아니라 제품을 사용할 사용자가 원하는 것을 만드는 것이 중요합니다.
+제품의 담당자로서 이 질문에 답을 했는지, 제품을 만드는 조직 전체가 이 질문에 답을 할 수 있는지, 더 나아가 회사가 이 질문에 답을 할 수 있는지 항상 고민하고 점검해야 합니다.&lt;/p&gt;
+&lt;h2&gt;제품을 만들 때 항상 가져야 하는 의문&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;고객이 과연 이 제품을 구매하거나 사용할까?&lt;/li&gt;
+&lt;li&gt;사용자가 이 제품의 사용법을 잘 알고 잘 쓸까?&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;우리 사업에 효과가 있는 솔루션인가?&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;문제를 해결하는가?&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;우리가 적절한 때에 만들어 전달 할 수 있는가? (실현 가능성)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2&gt;모든 일에 모든 구성원이 이 질문에 답할 수 있도록 만들기&lt;/h2&gt;
+&lt;h3&gt;이 일은 어떤 사업 목표를 다루는 것인가? (목표)&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;이 기능을 만드는 것이 우리 회사 전체 사업 목표중 어떤 것에 도움이 되는가 고민합니다.&lt;/li&gt;
+&lt;li&gt;우리 회사의 지금 로드맵상에 목표가 무엇인지도 알고 있어야 합니다.&lt;/li&gt;
+&lt;li&gt;최신 기술과 좋은 성능이 주 목표가 되지 않을 수 있습니다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;성공을 어떤 기준으로, 어떻게 판단할 수 있는가? (핵심성과)&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;우리가 만드는 기능이 성공적으로 사용되고 있는지를 어떻게 판단할지 고민합니다.&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;사용자는 좋은 지표이지만 단순히 많이 쓰는 것이 중요하지 않을 수 있습니다.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;우리의 제품에 맞는 지표와 기준을 정해야 합니다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;우리의 고객을 위해 어떤 문제를 해결하는 것인가? (고객 문제)&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;모든 기능과 제품은 문제를 해결해야 합니다.&lt;/li&gt;
+&lt;li&gt;고객이 겪는 어느 문제를 대신 해결해주는지 고민해야 합니다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;우리가 집중하고 있는 고객은 누구인가? (목표시장)&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;우리가 만드는 제품을 전 세계 모든 사람이 쓰면 좋겠지만 절대 그렇지 않습니다.&lt;/li&gt;
+&lt;li&gt;우리가 만든 제품을 쓰는 고객이 정확히 누구인지 알고 있어야 합니다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;em&gt;인스파이어드 책에서…&lt;/em&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Python incompatible with supertype 에러와 LSP]]></title><description><![CDATA[들어가며 Fast API를 통해 개발중에 상속과 오버라이드를 해야 할 일이 있었습니다.
 린팅을 위해 mypy…]]></description><link>https://whatisand.github.io/mypy-clean-architecture-lsp/</link><guid isPermaLink="false">https://whatisand.github.io/mypy-clean-architecture-lsp/</guid><pubDate>Wed, 09 Feb 2022 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;들어가며&lt;/h2&gt;
 &lt;p&gt;Fast API를 통해 개발중에 상속과 오버라이드를 해야 할 일이 있었습니다.
 린팅을 위해 mypy로 검사해보니 이런 오류를 내어 주었습니다.&lt;/p&gt;
