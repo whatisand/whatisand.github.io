@@ -1,4 +1,19 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[RSS Feed of Kim Dongwoo]]></title><description><![CDATA[세상과 다른 방법으로 살고싶습니다.]]></description><link>https://whatisand.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Sun, 13 Feb 2022 15:19:04 GMT</lastBuildDate><item><title><![CDATA[제품을 개발하는 조직에서 항상 가져가야 하는 질문]]></title><description><![CDATA[…]]></description><link>https://whatisand.github.io/프로덕트-필수-질문/</link><guid isPermaLink="false">https://whatisand.github.io/프로덕트-필수-질문/</guid><pubDate>Fri, 11 Feb 2022 00:00:00 GMT</pubDate><content:encoded>&lt;blockquote&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[RSS Feed of Kim Dongwoo]]></title><description><![CDATA[세상과 다른 방법으로 살고싶습니다.]]></description><link>https://whatisand.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Tue, 15 Feb 2022 11:53:40 GMT</lastBuildDate><item><title><![CDATA[파이썬 “…” 표현식이 이 뭘까?]]></title><description><![CDATA[들어가며 파이썬 공부를 하며 "..."이라는 표현을 보게 되었습니다. 처음에는 그냥 말 줄임표로 쓴 줄 알았는데 실제 코드에서 "..."이 나타나는 것을 보고 뭔가 표현식이 있겠거나 하고 넘겼습니다. 대부분의 예제에서 pass…]]></description><link>https://whatisand.github.io/python-ellipsis/</link><guid isPermaLink="false">https://whatisand.github.io/python-ellipsis/</guid><pubDate>Fri, 11 Feb 2022 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;들어가며&lt;/h2&gt;
+&lt;p&gt;파이썬 공부를 하며 &quot;...&quot;이라는 표현을 보게 되었습니다. 처음에는 그냥 말 줄임표로 쓴 줄 알았는데 실제 코드에서 &quot;...&quot;이 나타나는 것을 보고 뭔가 표현식이 있겠거나 하고 넘겼습니다.&lt;/p&gt;
+&lt;p&gt;대부분의 예제에서 pass 대신 사용하고 있었기 때문에 단순히 pass의 또 다른 형태인 줄 알았는데 Fast API에서 등장한 &quot;...&quot;을 보며 궁금증이 생겼습니다.&lt;/p&gt;
+&lt;p&gt;이 단순한 궁금증은 검색 실패로 커져갔습니다. 구글에 Python ... 이라고 검색하면 온갖 파이썬 관련 문서가 검색됩니다. 여러번 검색하다보니 오기가 생겨서 몇번 검색을 시도하다가 Python three dots 라는 키워드로 검색에 성공하였습니다.&lt;/p&gt;
+&lt;p&gt;Python Ellipsis에 대해 알게 된 것을 적어봅니다.&lt;/p&gt;
+&lt;h2&gt;Python Ellipsis가 무엇일까?&lt;/h2&gt;
+&lt;h3&gt;numpy에서 활용&lt;/h3&gt;
+&lt;h3&gt;객체에서 활용&lt;/h3&gt;
+&lt;h3&gt;pass 대신 사용&lt;/h3&gt;
+&lt;h2&gt;검색한 문서&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://tech.madup.com/python-ellipsis/&quot;&gt;파이썬 세 개의 점, Ellipsis 객체는 무엇인가요? | MADTECH&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://pakstech.com/blog/python-ellipsis/&quot;&gt;Three Dots in Python, What is the Ellipsis Object? | PäksTech&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://medium.com/techtofreedom/3-uses-of-the-ellipsis-in-python-25795aac723d&quot;&gt;3 Uses of the Ellipsis in Python. The cutest syntax sugar in Python | by Yang Zhou | TechToFreedom | Medium&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://docs.python.org/3/library/constants.html#Ellipsis&quot;&gt;Built-in Constants — Python 3.10.2 documentation&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[제품을 개발하는 조직에서 항상 가져가야 하는 질문]]></title><description><![CDATA[…]]></description><link>https://whatisand.github.io/프로덕트-필수-질문/</link><guid isPermaLink="false">https://whatisand.github.io/프로덕트-필수-질문/</guid><pubDate>Fri, 11 Feb 2022 00:00:00 GMT</pubDate><content:encoded>&lt;blockquote&gt;
 &lt;p&gt;내가 만들고 싶은 것이 아니라
 사람들이 원하는 것을 만들어라&lt;/p&gt;
 &lt;/blockquote&gt;
