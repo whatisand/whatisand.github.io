@@ -1,4 +1,33 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[RSS Feed of Kim Dongwoo]]></title><description><![CDATA[세상과 다른 방법으로 살고싶습니다.]]></description><link>https://whatisand.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Tue, 15 Feb 2022 11:53:40 GMT</lastBuildDate><item><title><![CDATA[파이썬 “…” 표현식이 이 뭘까?]]></title><description><![CDATA[들어가며 파이썬 공부를 하며 "..."이라는 표현을 보게 되었습니다. 처음에는 그냥 말 줄임표로 쓴 줄 알았는데 실제 코드에서 "..."이 나타나는 것을 보고 뭔가 표현식이 있겠거나 하고 넘겼습니다. 대부분의 예제에서 pass…]]></description><link>https://whatisand.github.io/python-ellipsis/</link><guid isPermaLink="false">https://whatisand.github.io/python-ellipsis/</guid><pubDate>Fri, 11 Feb 2022 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;들어가며&lt;/h2&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[RSS Feed of Kim Dongwoo]]></title><description><![CDATA[세상과 다른 방법으로 살고싶습니다.]]></description><link>https://whatisand.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Wed, 16 Feb 2022 12:28:30 GMT</lastBuildDate><item><title><![CDATA[Python @staticmethod @classmethod 왜 사용할까?]]></title><description><![CDATA[들어가며 검색한 문서 파이썬 정적(static) 메서드와 클래스(class) 메서드 | Engineering Blog by Dale Seo The definitive guide on how to use static, class or abstract…]]></description><link>https://whatisand.github.io/python-staticmethod-classmethod/</link><guid isPermaLink="false">https://whatisand.github.io/python-staticmethod-classmethod/</guid><pubDate>Sat, 12 Feb 2022 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;들어가며&lt;/h2&gt;
+&lt;h2&gt;검색한 문서&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.daleseo.com/python-class-methods-vs-static-methods/&quot;&gt;파이썬 정적(static) 메서드와 클래스(class) 메서드 | Engineering Blog by Dale Seo&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://julien.danjou.info/guide-python-static-class-abstract-methods/&quot;&gt;The definitive guide on how to use static, class or abstract methods in Python&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.codeit.kr/community/threads/13116&quot;&gt;정적 메소드를 쓰는 이유가 무엇인가요? | 코드잇&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[파이썬 class(**external_data)이 뭘까?]]></title><description><![CDATA[들어가며 개발하며 이런 식의 표현을 보았습니다.
+
+이런 식의 표현은 함수를 정의하면서 keyword argment…]]></description><link>https://whatisand.github.io/python-asterisk/</link><guid isPermaLink="false">https://whatisand.github.io/python-asterisk/</guid><pubDate>Fri, 11 Feb 2022 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;들어가며&lt;/h2&gt;
+&lt;p&gt;개발하며 이런 식의 표현을 보았습니다.
+&lt;span class=&apos;gatsby-resp-image-wrapper&apos; style=&apos;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 680px; margin-bottom: 16px;&apos;&gt;
+      &lt;a class=&apos;gatsby-resp-image-link&apos; href=&apos;/static/ffdb9a241316e9374df8f2f791a90d8b/ef0cc/78927256-9DF9-47FB-A80F-6A3660F2F549.png&apos; style=&apos;display: block&apos; target=&apos;_blank&apos; rel=&apos;noopener&apos;&gt;
+    &lt;span class=&apos;gatsby-resp-image-background-image&apos; style=&quot;padding-bottom: 55.294117647058826%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAAAsTAAALEwEAmpwYAAABaElEQVQoz41Sa2+DMAzs//9xW7d2UveoWgh5QB4kAcK+3Zx0bK1Ep304WTjmfD57E4cRnY3wfUSkaIyBVC2EVLDWYRzHu5im6Scu2GRC0QUoEaBZQMM6yFZdCJ27KV6Q0rRKVgjTd8GpYhCkzMeIxkgwLSFti5EaBsplRMIwDPAhlLiqcEm+fRzx+v4BLgRqznGg7+OpRs0YNatQN01R7b3HuWZwfY/0F2HbdeUnTR52WkMpDavHQpBxO3K6P/LyMM8zPgm5eE6XOKXfwn8vpafuDReoSB2XEmcaUVtT/EpTKmOlRdl0pWxcX8xmoEQ2uGo5lNVgrUCjFeI4wHgHF3yBjwHW97SccKN4deQ8YtUJbM8HHPgJxllYo1FLhqOscVbkbW/BTQtHpH8SlvXTQxhiUWR6hxjoPMiKlE+F8gPFuXibVjd7Q5iPlzUcgW4reykIu/0eD9snbHc7PFJ83r+U92vP7in8Ai3XRSqud5XmAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;&gt;&lt;/span&gt;
+  &lt;img class=&apos;gatsby-resp-image-image&apos; alt=&apos;image&apos; title=&apos;image&apos; src=&apos;/static/ffdb9a241316e9374df8f2f791a90d8b/ca1dc/78927256-9DF9-47FB-A80F-6A3660F2F549.png&apos; srcset=&apos;/static/ffdb9a241316e9374df8f2f791a90d8b/e7570/78927256-9DF9-47FB-A80F-6A3660F2F549.png 170w,
+/static/ffdb9a241316e9374df8f2f791a90d8b/f46e7/78927256-9DF9-47FB-A80F-6A3660F2F549.png 340w,
+/static/ffdb9a241316e9374df8f2f791a90d8b/ca1dc/78927256-9DF9-47FB-A80F-6A3660F2F549.png 680w,
+/static/ffdb9a241316e9374df8f2f791a90d8b/ef0cc/78927256-9DF9-47FB-A80F-6A3660F2F549.png 962w&apos; sizes=&apos;(max-width: 680px) 100vw, 680px&apos; style=&apos;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&apos; loading=&apos;lazy&apos; decoding=&apos;async&apos;&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;
+이런 식의 표현은 함수를 정의하면서 keyword argment 자리를 표현할때 종종 사용하고는 했습니다.
+근데 정의할 때가 아니라 사용할 때 이런식으로 쓰면 어떻게 되는건지 궁금해졌습니다. 그냥 넣는거랑 **을 붙이는거랑 무슨 차이가 나는걸까요?&lt;/p&gt;
+&lt;p&gt;데이터를 Unpacking 하는 용도로 쓰인다고 합니다.&lt;/p&gt;
+&lt;h2&gt;데이터 언패킹 사용예시&lt;/h2&gt;
+&lt;p&gt;User 에서 id, signup_ts, friends 를 keyword argument 로 받는 경우,
+Dictionary 타입으로 정의된 객체를 그대로 인자로 전달하고 싶을 때 사용하면 좋습니다.&lt;/p&gt;
+&lt;h2&gt;Python의 Asterisk(*) 사용 예시 알아보기&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://mingrammer.com/understanding-the-asterisk-of-python/&quot;&gt;파이썬의 Asterisk(*) 이해하기 · mingrammer’s note&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://medium.com/techtofreedom/5-uses-of-asterisks-in-python-3007911c198f&quot;&gt;5 Uses of Asterisks in Python. The powerful weapon for writing more… | by Yang Zhou | TechToFreedom | Medium&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[파이썬 “…” 표현식이 이 뭘까?]]></title><description><![CDATA[들어가며 파이썬 공부를 하며 "..."이라는 표현을 보게 되었습니다. 처음에는 그냥 말 줄임표로 쓴 줄 알았는데 실제 코드에서 "..."이 나타나는 것을 보고 뭔가 표현식이 있겠거나 하고 넘겼습니다. 대부분의 예제에서 pass…]]></description><link>https://whatisand.github.io/python-ellipsis/</link><guid isPermaLink="false">https://whatisand.github.io/python-ellipsis/</guid><pubDate>Fri, 11 Feb 2022 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;들어가며&lt;/h2&gt;
 &lt;p&gt;파이썬 공부를 하며 &quot;...&quot;이라는 표현을 보게 되었습니다. 처음에는 그냥 말 줄임표로 쓴 줄 알았는데 실제 코드에서 &quot;...&quot;이 나타나는 것을 보고 뭔가 표현식이 있겠거나 하고 넘겼습니다.&lt;/p&gt;
 &lt;p&gt;대부분의 예제에서 pass 대신 사용하고 있었기 때문에 단순히 pass의 또 다른 형태인 줄 알았는데 Fast API에서 등장한 &quot;...&quot;을 보며 궁금증이 생겼습니다.&lt;/p&gt;
 &lt;p&gt;이 단순한 궁금증은 검색 실패로 커져갔습니다. 구글에 Python ... 이라고 검색하면 온갖 파이썬 관련 문서가 검색됩니다. 여러번 검색하다보니 오기가 생겨서 몇번 검색을 시도하다가 Python three dots 라는 키워드로 검색에 성공하였습니다.&lt;/p&gt;
@@ -13,6 +42,20 @@
 &lt;li&gt;&lt;a href=&quot;https://pakstech.com/blog/python-ellipsis/&quot;&gt;Three Dots in Python, What is the Ellipsis Object? | PäksTech&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://medium.com/techtofreedom/3-uses-of-the-ellipsis-in-python-25795aac723d&quot;&gt;3 Uses of the Ellipsis in Python. The cutest syntax sugar in Python | by Yang Zhou | TechToFreedom | Medium&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://docs.python.org/3/library/constants.html#Ellipsis&quot;&gt;Built-in Constants — Python 3.10.2 documentation&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[TCP에서 연결 종료시 4-way Handshake가 필요한 이유]]></title><description><![CDATA[왜 연결시에는 3-way 이고 연결 종료시에는 4-way인지 궁금해짐 들어가며 TCP통신을 위해 3-way Handshake…]]></description><link>https://whatisand.github.io/tcp-4way-handshake/</link><guid isPermaLink="false">https://whatisand.github.io/tcp-4way-handshake/</guid><pubDate>Fri, 11 Feb 2022 00:00:00 GMT</pubDate><content:encoded>&lt;ul&gt;
+&lt;li&gt;왜 연결시에는 3-way 이고 연결 종료시에는 4-way인지 궁금해짐&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;들어가며&lt;/h2&gt;
+&lt;p&gt;TCP통신을 위해 3-way Handshake가 필요하다는 것은 알게 되었습니다. 전이중 통신을 지향하기 때문에 양 측 모두 데이터를 송수신할 준비가 되었다는 것을 검증받기 위해 송수신 모두 문제가 없음을 검증하기 위해서 3-way 절차가 필요합니다.&lt;/p&gt;
+&lt;p&gt;근데, 4-way 는 왜 나온걸까요? 종료시에도 3-way로 하면 똑같이 검증할 수 있는 것이 아닐까요?
+단순히 종료할떄는 4-way이다 라고 알고 넘어갔는데 계속 궁금증이 남아 찾아보았습니다.&lt;/p&gt;
+&lt;p&gt;TCP의 Handshake에 대해서는 너무나 많은 글이 있습니다. 연결 과정에 대해서는 자세히 적지 않으려 합니다.&lt;/p&gt;
+&lt;h2&gt;4-way Handshake가 일어나는 과정&lt;/h2&gt;
+&lt;h2&gt;왜 4-way가 필요한가?&lt;/h2&gt;
+&lt;h2&gt;참고자료&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.geeksforgeeks.org/tcp-connection-termination/&quot;&gt;TCP Connection Termination - GeeksforGeeks&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://it-mesung.tistory.com/166&quot;&gt;Network 3-way Handshake &amp;#x26; 4-way Handshake&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;</content:encoded></item><item><title><![CDATA[제품을 개발하는 조직에서 항상 가져가야 하는 질문]]></title><description><![CDATA[…]]></description><link>https://whatisand.github.io/프로덕트-필수-질문/</link><guid isPermaLink="false">https://whatisand.github.io/프로덕트-필수-질문/</guid><pubDate>Fri, 11 Feb 2022 00:00:00 GMT</pubDate><content:encoded>&lt;blockquote&gt;
 &lt;p&gt;내가 만들고 싶은 것이 아니라
 사람들이 원하는 것을 만들어라&lt;/p&gt;
