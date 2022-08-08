@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:mobile="http://www.google.com/schemas/sitemap-mobile/1.0" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
+<url> <loc>https://whatisand.github.io/feedback-4a/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://whatisand.github.io/hello-world/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://whatisand.github.io/https-with-aws-elb/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://whatisand.github.io/미래-핵심-역량/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://whatisand.github.io/feedback-4a/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://whatisand.github.io/성장의-단계/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://whatisand.github.io/docker-ec2-CD-github-actions/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://whatisand.github.io/mypy-clean-architecture-lsp/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
@@ -19,9 +19,10 @@
 <url> <loc>https://whatisand.github.io/자신감은-지식으로-부터/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://whatisand.github.io/1분-자기소개-회고/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://whatisand.github.io/became-junior-data-scientist/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://whatisand.github.io/memory-profiling/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://whatisand.github.io/series/무엇이-좋은-조직인가?</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://whatisand.github.io/series/짧은글</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://whatisand.github.io/series/오늘의-개발일기</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://whatisand.github.io/series/무엇이-좋은-조직인가?</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://whatisand.github.io/series/좋은-조직이란-무엇인가?</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://whatisand.github.io/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://whatisand.github.io/search/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
