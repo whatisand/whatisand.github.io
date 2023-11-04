@@ -20,9 +20,9 @@ tags:
 초창기 기술을 무시하지 말자. 그 기술이 바꿀 미래를 누구보다 먼저 상상해보자.
 
 
-![[firstcar.png]]
+![[./firstcar.png]]
 
-![[Wrightflyer.jpg]]
+![[./Wrightflyer.jpg]]
 
 ## 참고문서
 
