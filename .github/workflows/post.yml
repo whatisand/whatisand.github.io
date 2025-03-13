@@ -33,7 +33,7 @@ jobs:
         run: npm run build-prefix-paths
         working-directory: ${{ env.working-directory }}
       - uses: peaceiris/actions-gh-pages@v2
-        with:
+        env:
           PERSONAL_TOKEN: ${{ secrets.TOKEN }}
           PUBLISH_BRANCH: gh-pages
           PUBLISH_DIR: ./whatisand-blog/public
