@@ -20,7 +20,7 @@ jobs:
         with:
           node-version: 14.x
       - name: Cache node_modules
-        uses: actions/cache@v2
+        uses: actions/cache@v3
         with:
           path: ./whatisand-blog/node_modules
           key: ${{runner.OS}}-build-${{hashFiles('**/whatisand-blog/package-lock.json')}}
